@@ -1,0 +1,1039 @@
+*{
+    margin: 0%;padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    /* font-family:  */
+    /* background-color: red; */
+  }
+  
+  nav{
+    font-weight: 400;
+    width: 100%;
+    height: 100px;
+    /* padding-left: 50px; */
+    /* height: 150px; */
+    padding-left: 115px;
+    /* padding-right: 130px; */
+    position: relative;
+    color: white;
+    background-color:#008aff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav .logo{
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    /* margin-left: 26px; */
+    top: 33px;
+  }
+  
+  nav span{
+    color: #FFC431;
+  }
+  
+  .nav_right{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 55%;
+    height: 100%;
+    right: 119px;
+    /* margin-right: 119px; */
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #000; */
+  }
+  
+  .nav_right a{
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+    color: #fafafa;
+    opacity: .8;
+    /* color: #ddec4c; */
+    font-weight: 500;
+  }
+  
+  .nav_right button{
+    /* padding: 7px 10px; */
+    height: 50px;
+    width: 138px;
+    border-radius: 7px;
+    outline: none;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+  }
+  
+  
+  .landingpage {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #008aff;
+  }
+  
+  .landingpage-left{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    /* border: 2px solid red; */
+    padding-top: 60px;
+    padding-left: 115px;
+    width: 50%;
+    min-height: 140vh;
+    /* background-color: yellow; */
+  }
+  
+  .landingpage-left h1{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 120px;
+    color: #fff;
+    margin-bottom: -13px;
+  }
+  
+  .landingpage-left h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-left: 4.7px;
+    margin-top: 55px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #fff;
+    /* color: aqua; */
+  }
+  
+  .landingpage-left button{
+    /* padding: 12px 40px; */
+    width: 220px;
+    height: 55px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 50px;
+    display: block;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    margin-bottom: 40px;
+    background-color: #FFC431;
+  }
+  
+  .landingpage-left small{
+    color: #fff;
+    margin-left: 7px;
+    /* margin-top: 200px; */
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    opacity: .8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+  }
+  
+  .landingpage-left .store_logo{
+    margin-top: 25px;
+    /* width: 150px;
+    height: 80px;
+    background-color: red; */
+  }
+  
+  
+  .landingpage-right{
+    /* width: 50%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/img1.svg); */
+  }
+  
+  .secondpage{
+    position: relative;
+    width: 100%;
+    min-height: 110vh;
+    padding: 95px 120px;
+  
+    /* background-color: royalblue; */
+  }
+  
+  .secondpage h2{
+    font-size: 30px;
+    width: 500px;
+    color: rgb(87, 88, 90);
+  
+    /* color: rgb(157, 170, 189); */
+    /* background-color: #ddec4c; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+  }
+  
+  .secondpage h4{
+    font-size: 16.5px;
+    margin-top: 35px;
+    color: rgb(147, 162, 184);
+    /* background-color: green; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+  }
+  
+  .secondpage .secondpage_cards{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 72%;
+    height: 260px;
+    /* margin-bottom: 180px; */
+    /* background-color: grey; */
+    /* margin-top: 10px; */
+  }
+  .secondpage .secondpage_cards .card{
+    width: 30%;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    padding-top: 30px;
+    cursor: pointer;
+    /* padding-left: 60px; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    /* text-align: center; */
+    box-shadow: 0 4px 50px 0 rgba(90, 90, 90, 0.555);
+    transition: .3;
+    /* background-color: teal; */
+  }
+  
+  /* .secondpage .secondpage_cards .card:hover{
+    transition: .5s;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  } */
+  
+  .electronics{
+    color: #91A4BF;
+  }
+  
+  .internet{
+    color: #F56674;
+  }
+  
+  .education{
+    color: #3A72FF
+  }
+  
+  .secondpage .secondpage_cards .card h1 span{
+    font-size: 42px;
+    /* margin-right: 8px; */
+  }
+  
+  .secondpage .secondpage_cards .card h1{
+    font-size: 92px;
+    width: 160px;
+    /* background-color: red; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+  }
+  
+  .secondpage .secondpage_cards .card h5{
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  .thirdpage{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: teal; */
+  }
+  
+  .thirdpage .thirdpage_left{
+    width: 50%;
+    height: 90vh;
+    position: relative;
+    background-color: #008AFF;
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card1{
+    position: absolute;
+    background: url(https://images.unsplash.com/photo-1573495782176-b536322e5ad6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: center;
+    top: 70px;
+    left: 370px;
+    height: 405px;
+    width: 385px;
+    /* background-color: rgb(165, 135, 135); */
+    border-radius: 15px;
+    box-shadow: 0 4px 50px 0 rgba(124, 159, 179, 0.651);
+  
+  }
+  
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2{
+    height: 405px;
+    width: 385px;
+    position: absolute;
+    top:  335px;
+    left: 118px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 50px 0 rgba(90, 90, 90, 0.555);
+  
+    /* mix-blend-mode: multiply; */
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_head{
+    padding: 0px 39px;
+    height: 30%;
+    width: 100%;
+    border-radius: 15px;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_head .sender_profilepic{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: url(https://s4.scoopwhoop.com/anj2/5d0b6bf4b37f125d27fb66c5/de6eb489-5749-466a-8aa5-e96422d84109.jpg);
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_head .arrow{
+    width: 65px;
+    height: 95px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* clip-path: polygon(0 62%, 62% 62%, 62% 52%, 92% 70%, 60% 89%, 61% 80%, 0% 80%); */
+    clip-path: polygon(0 42%, 62% 42%, 62% 32%, 92% 50%, 60% 69%, 61% 60%, 0% 60%);
+    /* background-color: #fff; */
+  background: linear-gradient(to right, #cacaca, #636668); 
+  
+  }
+  
+  
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_head .reciever_profilepic{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #192A41;
+    display: flex;
+    justify-content: center;
+    color: rgb(245, 245, 245);
+    align-items: center;
+  
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_middle{
+    width: 300px;
+    height: 145px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50% );
+    /* margin-left: 36px; */
+    background-color: #fff;
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_middle h1{
+    font-size: 18px;
+    color: #FF3C39;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_middle h1 span{
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: 400; */
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_middle h2{
+    font-size: 14px;
+    color: rgba(122, 122, 122, 0.945);
+    margin-top: 42px;
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_middle h3{
+    font-size: 14px;
+    /* color: rgba(122, 122, 122, 0.945); */
+    color: rgb(5, 5, 5);
+    font-weight: 700;
+    margin-top: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    /* margin-right: 55px; */
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_middle h3 span{
+    margin-left: 95px;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: rgba(122, 122, 122, 0.945);
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    /* margin-left: 36px;
+    margin-top: 42px; */
+    border-radius: 25px;
+    padding-right: 36px;
+    background-color: #EFF6FF;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, 0% );
+    /* mix-blend-mode: multiply; */
+  
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_footer .payment_status_logo{
+    width: 25%;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2DCA73;
+  }
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_footer .payment_status_logo i{
+    color: #EFF6FF;
+  }
+  
+  
+  
+  .thirdpage .thirdpage_left .thirdpage_left-card2 .thirdpage_left-card2_footer h3{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: rgba(158, 157, 157, 0.781); */
+    color: rgba(122, 122, 122, 0.664);
+    font-family: 300;
+    mix-blend-mode: multiply;
+  
+  
+  }
+  
+  
+  
+  .thirdpage .thirdpage_right{
+    width: 50%;
+    display: flex;
+    padding-left: 15%;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 90vh;
+    /* background-color: red; */
+  }
+  
+  .thirdpage .thirdpage_right h1{
+    width: 240px;
+    font-weight: 700;
+    /* font-weight: bold; */
+    /* height: 50px; */
+    /* background-color: #91A4BF; */
+    color: #FF3D3A;
+    font-size: 15px;
+    margin-bottom: 35px;
+    letter-spacing: 1.2px;
+    opacity: .9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .thirdpage .thirdpage_right h2{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 31px;
+    width: 325px;
+    background-color: #fff;
+  }
+  
+  .thirdpage .thirdpage_right p{
+    color: rgba(99, 99, 99, 0.918);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 0px;
+    /* background-color: red; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 60px;
+    width: 290px;
+    background-color: #fff;
+  }
+  
+  .thirdpage .thirdpage_right button{
+    width: 220px;
+    height: 55px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    /* margin-left: 5px;
+    margin-top: 50px; */
+    display: block;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    /* margin-bottom: 40px; */
+    background-color: #FFC431;
+  }
+  
+  
+  
+  .fourthpage{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    /* background-color : rgba(255, 255, 0, 0.315); */
+  }
+  
+  .fourthpage .fourthpage-left{
+    width: 50%;
+    height: 100vh;
+    padding: 142px 112px;
+    /* background-color: rgba(150, 255, 0, 0.315); */
+  }
+  
+  /* .fourthpage .fourthpage-right{
+    width: 50%;
+    height: 100vh;
+    padding: 142px 112px;
+    background-color: rgba(150, 255, 0, 0.315);
+  } */
+  
+  
+  .fourthpage .fourthpage-left h5{
+    color: #6691FF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .fourthpage .fourthpage-left h3{
+    margin: 25px 0px;
+    font-size: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    width: 60%;
+    background-color: #fff;
+  }
+  
+  .fourthpage .fourthpage-left h4{
+    width: 65%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #A6AEBB;
+    margin-left: 0px;
+    font-weight: 400;
+  }
+  
+  .fourthpage .fourthpage-left button{
+    width: 220px;
+    height: 55px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    margin-top: 50px;
+    display: block;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    margin-bottom: 40px;
+    background-color: #171347;
+  }
+  
+  .fourthpage .fourthpage-right{
+    width: 50%;
+    height: 100%;
+    background: url(../images/Capt.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #0087FF;
+  }
+  
+  
+  /* *******************Fourth Page end************* */
+  
+  .fifthpage{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: #F2F9FF;
+  }
+  
+  .fifthpage h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  
+  
+  .fifthpage .fifthpage-section{
+    width: 82%;
+    height: 60%;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(230, 240, 248, 0.87);
+    border-radius: 20px;
+    justify-content: space-between;
+    background-color: #F2F9FF;
+  }
+  
+  .fifthpage .fifthpage-section .section-left{
+    width: 49.99%;
+    display: flex;
+    line-height: 33px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    height: 100%;
+    /* box-shadow: 0px 0px 10px rgba(105, 105, 105, 0.534); */
+    /* padding-left: 5%; */
+    border-radius: 5% 0% 51% 5% / 5% 21% 0% 5% ;
+    background-color: #FFFFFF;
+  }
+  
+  .fifthpage .fifthpage-section .section-left h2{
+    /* margin-left: 50px; */
+    color: #FF3E3B;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .fifthpage .fifthpage-section p{
+    /* margin-left: 50px; */
+    font-size: 19px;
+    font-weight: 400;
+    /* background-color: red; */
+    color: #818D9F;
+  }
+  
+  .fifthpage .fifthpage-section h4, i{
+    font-size: 14px;
+    color: #4A7DFF;
+    background-color: #fff;
+    font-weight: 700;
+  }
+  
+  
+  
+  .fifthpage .fifthpage-section h2, p, h4{
+    width: 60%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    margin-left: 12%;
+    /* background-color: #008aff; */
+  }
+  
+  
+  .fifthpage .fifthpage-section .section-right{
+    width: 49.8%;
+    display: flex;
+    flex-direction: column;
+    line-height: 33px;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    height: 100%;
+    border-radius:0% 10% 10% 0% / 100% 10% 10% 100% ;
+    background-color: #FFFFFF;
+  }
+  
+  .fifthpage .fifthpage-section .section-right h2{
+    /* margin-left: 50px; */
+    color: #3A72FF;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  /* ******************************* */
+  
+  .sixthpage{
+    width: 100%;
+    height: 120vh;
+    padding-left: 100px;
+    padding-top: 100px;
+    display: flex;
+  }
+  
+  .sixthpage .sixthepage-left{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* background-color: pink; */
+    /* display: flex; */
+    /* justify-content: unset; */
+    /* align-items: ; */
+  }
+  
+  .sixthpage .sixthepage-left img{
+    box-shadow: 0 0px 8px 0 rgba(90, 90, 90, 0.555);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  
+  .sixthpage .sixthepage-left #logo_google{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2222;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sixthpage .sixthepage-left #logo_kia{
+    position: absolute;
+    top: 28%;
+    left: 18%;
+    z-index: 2222;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sixthpage .sixthepage-left #logo_airbnb{
+    position: absolute;
+    top: 57%;
+    left: 10%;
+    z-index: 2222;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sixthpage .sixthepage-left #logo_logo{
+    position: absolute;
+    top: 55%;
+    left: 93%;
+    z-index: 2222;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sixthpage .sixthepage-left #logo_ica{
+    position: absolute;
+    top: 21%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sixthpage .sixthepage-left #logo_circle{
+    position: absolute;
+    top: 82%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sixthpage .sixthepage-left #logo_visa{
+    position: absolute;
+    top: 11%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sixthpage .sixthepage-left #logo_amazon{
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .sixthpage .sixthpage-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    /* align-items: ; */
+  }
+  
+  .sixthpage .sixthpage-right h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3972FF;
+  }
+  
+  .sixthpage .sixthpage-right h2{
+    padding: 6% 0%;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    font-weight: 600;
+  }
+  
+  .sixthpage .sixthpage-right h5{
+    width: 43%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #758296;
+    /* background-color: green; */
+  }
+  
+  /* ****************************************** */
+  
+  
+  .seventhpage{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    /* padding: 40px 120px; */
+    align-items: center;
+    height: 100vh;
+    background-color: #0087FF;
+  }
+  
+  .seventhpage .seventhpage-left{
+    width: 32%;
+    height: 60%;
+    margin-left: 6%;
+    /* padding-top: 40px; */
+    /* margin-top: 8%, 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* background-color: rgba(255, 255, 255, 0.342); */
+  }
+  
+  .seventhpage .seventhpage-left p{
+    /* background-color: red; */
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 0px;
+  }
+  
+  .seventhpage .seventhpage-left h3{
+    font-size: 14px;
+    color: #FFD775;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  
+  .seventhpage .seventhpage-left h2{
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  }
+  
+  .email-drop-box{
+    width: 98%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 6px;
+    height: 17%;
+    background-color: #fff;
+  }
+  
+  .email-drop-box .inp_email{
+    margin-left: 35px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: rgb(224, 225, 228);
+  
+  }
+  
+  .email-drop-box button{
+    width: 110px;
+    height: 52px;
+    background-color: #FFC431;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 15px;
+  }
+  
+  .seventhpage .seventhpage-right{
+    width: 32%;
+    height: 92%;
+    background-color: #fff;
+    margin-top: -177px;
+    margin-right: -20px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(../images/imgwhite.png);
+  
+  }
+  
+  .seventhpage .seventhpage-right{
+    /* position: absolute; */
+  }
+  
+  
+  
+  .footer{
+    width: 100%;
+    height: 295px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #171347;
+    color: #EFF6FF;
+    padding: 60px 120px;
+    /* padding-left: 115px; */
+  }
+  
+  .footer .footer-left{
+    width: 70%;
+    height: 100%;
+    /* background-color: rgba(0, 128, 0, 0.479); */
+    
+  }
+  
+  .footer .footer_logo{
+    width: 100%;
+    height: 80%;
+    /* padding-right: 20px; */
+    display: flex;
+    /* line-height: 2px; */
+    justify-content: space-between;
+    /* mix-blend-mode: multiply; */
+    /* background-color: #fff; */
+    /* background-color: rgba(255, 255, 255, 0.116); */
+  }
+  
+  .footer .footer_logo h1{
+    color: #3A72FF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+  
+  }
+  .footer .footer_logo h1 span{
+    color: #FFC431;
+  }
+  
+  .footer .footer_logo h4{
+    width: 70%;
+    /* min-height: 70%; */
+    height: 60%;
+    /* background-color: red; */
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #747191;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-right: 80px;
+  }
+  
+  .footer .links{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #192A41; */
+    width: 70%;
+    /* color: #cacaca; */
+  }
+  
+  .footer .links a{
+    text-decoration: none;
+    color: #AFAEC0;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  
+  .footer .footer-right{
+      width: 17%;
+      padding: 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    /* background-color: rgba(255, 255, 255, 0.158); */
+  }
+  
+  .footer .footer-right h5{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 400;
+  }
+  
+  .footer .footer-right img{
+    margin-top: 30px;
+    margin-right: -2px;
+    margin-bottom: 50px;
+  }  
+  
+  .footer .footer-right h6{
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #8f8ea1;
+  }
+  
+  /* ******************** */
+  
+  button{
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
